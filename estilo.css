@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #202124;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    line-height: 50px;
+    padding-right: 20px;
+    padding-top: 15px;
+}
+
+.header_img {
+    width: 50px;
+    height: 50px;
+    border: solid 2px #2f3034;
+    border-radius: 50px;
+    border: none;
+}
+
+.header_img:hover {
+    background-color: #5f6368;
+    border: solid 2px #5f6368;
+    color: #5f6368;
+}
+
+.header_img2 {
+    border: solid 2px #2f3034;
+    border-radius: 50px;
+    border: none;
+}
+
+.header_img2:hover {
+    border: solid 2px #5f6368;
+    color: #5f6368;
+    border-radius: 50px;
+}
+
+.header_link {
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+.header_link:hover {
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image_body {
+    padding: 15px;
+}
+
+.bar_search {
+    border: 1px solid #5f6368;
+    display: flex;
+    border-radius: 50px;
+    padding: 5px;
+    align-items: center;
+}
+
+.image_body_search {
+    height: 20px;
+    margin: 10px;
+}
+
+.body_search {
+    width: 500px;
+    background-color: #202124;
+    border: none;
+    margin-left: 10px;
+}
+
+.body_search:focus {
+    outline: none;
+}
+
+.bar_search:hover ,
+.body_search:hover {
+    background-color: #303134;
+}
+
+.body_secondary {
+    display: flex;
+    padding: 20px;
+}
+
+.content {
+    border: solid 1px #5f6368;
+    padding: 10px;
+    margin-left: 10px;
+    background-color: #303134;
+}
+
+.content a {
+    text-decoration: none;
+}
+
+footer {
+    margin-top: 200px;
+    background-color: #171717;
+    height: 119px;
+    color: #bdc1c6;
+}
+
+.footer_infos {
+    padding: 20px;
+    color: #989898;
+}
+
+.bar {
+    width: 100%;
+    height: 1px;
+    background-color: #bdc1c6;
+}
+
+.footer_infos_link {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.footer_item {
+    padding-left: 10px;
+    text-decoration: none;
+    color: #989898;
+}
+
+.footer_item:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
